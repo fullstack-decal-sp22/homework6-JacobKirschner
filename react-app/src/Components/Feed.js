@@ -20,7 +20,7 @@ const Feed = () => {
 
   useEffect(() => {
     getPostsData();
-  }, []);
+  });
 
 
   return (
